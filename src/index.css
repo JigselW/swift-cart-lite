@@ -9,32 +9,48 @@ All colors MUST be HSL.
 @layer base {
   :root {
     --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --foreground: 210 11% 15%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 210 11% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 210 11% 15%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Blinkit-inspired green theme */
+    --primary: 142 70% 45%;
+    --primary-foreground: 0 0% 100%;
+    --primary-hover: 142 70% 40%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 60 80% 55%;
+    --secondary-foreground: 210 11% 15%;
+    --secondary-hover: 60 80% 50%;
 
-    --muted: 210 40% 96.1%;
+    --muted: 210 40% 96%;
     --muted-foreground: 215.4 16.3% 46.9%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 156 100% 97%;
+    --accent-foreground: 142 70% 45%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 0 0% 100%;
 
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --ring: 142 70% 45%;
+
+    /* Custom gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(142 70% 45%), hsl(156 65% 50%));
+    --gradient-secondary: linear-gradient(135deg, hsl(60 80% 55%), hsl(45 85% 60%));
+    --gradient-light: linear-gradient(180deg, hsl(156 100% 99%), hsl(156 100% 97%));
+
+    /* Shadows */
+    --shadow-soft: 0 4px 6px -1px hsl(142 70% 45% / 0.1), 0 2px 4px -1px hsl(142 70% 45% / 0.06);
+    --shadow-green: 0 10px 25px -5px hsl(142 70% 45% / 0.25);
+    --shadow-yellow: 0 10px 25px -5px hsl(60 80% 55% / 0.25);
+
+    /* Transitions */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 
     --radius: 0.5rem;
 
