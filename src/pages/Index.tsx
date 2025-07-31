@@ -53,8 +53,8 @@ const Index = () => {
             Delivered fresh to your doorstep in minutes
           </p>
           <div className="flex items-center justify-center gap-4 text-sm text-muted-foreground">
-            <span>✨ 10 min delivery</span>
-            <span>🚚 Free delivery above ₹199</span>
+            <span>✨ 30 min delivery</span>
+            <span>🚚 Free delivery above Nu.499</span>
             <span>💰 Best prices</span>
           </div>
         </div>

@@ -91,10 +91,10 @@ export const ProductGrid = ({ products }: ProductGridProps) => {
               </div>
 
               <div className="flex items-center gap-2">
-                <span className="font-bold text-lg text-foreground">₹{product.price}</span>
+                <span className="font-bold text-lg text-foreground">Nu.{product.price}</span>
                 {hasDiscount && (
                   <span className="text-sm text-muted-foreground line-through">
-                    ₹{product.originalPrice}
+                    Nu.{product.originalPrice}
                   </span>
                 )}
               </div>

@@ -25,7 +25,7 @@ export const Checkout = () => {
   
   const [isSubmitting, setIsSubmitting] = useState(false);
 
-  const deliveryFee = state.total > 199 ? 0 : 29;
+  const deliveryFee = state.total > 499 ? 0 : 49;
   const finalTotal = state.total + deliveryFee;
 
   const handleInputChange = (field: string, value: string) => {
@@ -158,7 +158,7 @@ export const Checkout = () => {
               {state.items.map((item) => (
                 <div key={item.id} className="flex justify-between text-sm">
                   <span>{item.name} x {item.quantity}</span>
-                  <span>₹{item.price * item.quantity}</span>
+                  <span>Nu.{item.price * item.quantity}</span>
                 </div>
               ))}
               
@@ -167,18 +167,18 @@ export const Checkout = () => {
               <div className="space-y-2">
                 <div className="flex justify-between">
                   <span>Items total</span>
-                  <span>₹{state.total}</span>
+                  <span>Nu.{state.total}</span>
                 </div>
                 <div className="flex justify-between">
                   <span>Delivery fee</span>
                   <span className={deliveryFee === 0 ? 'text-primary' : ''}>
-                    {deliveryFee === 0 ? 'FREE' : `₹${deliveryFee}`}
+                    {deliveryFee === 0 ? 'FREE' : `Nu.${deliveryFee}`}
                   </span>
                 </div>
                 <Separator />
                 <div className="flex justify-between font-bold text-lg">
                   <span>Total</span>
-                  <span>₹{finalTotal}</span>
+                  <span>Nu.{finalTotal}</span>
                 </div>
               </div>
             </div>
@@ -190,7 +190,7 @@ export const Checkout = () => {
             className="w-full"
             disabled={isSubmitting}
           >
-            {isSubmitting ? 'Placing Order...' : `Place Order • ₹${finalTotal}`}
+            {isSubmitting ? 'Placing Order...' : `Place Order • Nu.${finalTotal}`}
           </Button>
         </form>
       </div>

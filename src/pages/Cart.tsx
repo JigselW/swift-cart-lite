@@ -49,7 +49,7 @@ export const Cart = () => {
     );
   }
 
-  const deliveryFee = state.total > 199 ? 0 : 29;
+  const deliveryFee = state.total > 699 ? 0 : 49;
   const finalTotal = state.total + deliveryFee;
 
   return (
@@ -76,7 +76,7 @@ export const Cart = () => {
                   <h3 className="font-semibold text-foreground">{item.name}</h3>
                   <p className="text-sm text-muted-foreground capitalize">{item.category}</p>
                   <div className="flex items-center justify-between mt-2">
-                    <span className="font-bold text-lg">₹{item.price}</span>
+                    <span className="font-bold text-lg">Nu.{item.price}</span>
                     <div className="flex items-center gap-3">
                       <div className="flex items-center bg-muted rounded-lg">
                         <Button
@@ -118,23 +118,23 @@ export const Cart = () => {
           <div className="space-y-2">
             <div className="flex justify-between">
               <span>Items total</span>
-              <span>₹{state.total}</span>
+              <span>Nu.{state.total}</span>
             </div>
             <div className="flex justify-between">
               <span>Delivery fee</span>
               <span className={deliveryFee === 0 ? 'text-primary' : ''}>
-                {deliveryFee === 0 ? 'FREE' : `₹${deliveryFee}`}
+                {deliveryFee === 0 ? 'FREE' : `Nu.${deliveryFee}`}
               </span>
             </div>
-            {state.total <= 199 && (
+            {state.total <= 499 && (
               <p className="text-sm text-muted-foreground">
-                Add ₹{199 - state.total} more for free delivery
+                Add Nu.{499 - state.total} more for free delivery
               </p>
             )}
             <Separator />
             <div className="flex justify-between font-bold text-lg">
               <span>Total</span>
-              <span>₹{finalTotal}</span>
+              <span>Nu.{finalTotal}</span>
             </div>
           </div>
         </Card>

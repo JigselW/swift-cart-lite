@@ -23,7 +23,7 @@ export const FloatingCart = () => {
             {state.itemCount}
           </span>
         </div>
-        <span className="ml-2">₹{state.total}</span>
+        <span className="ml-2">Nu.{state.total}</span>
       </Button>
     </div>
   );

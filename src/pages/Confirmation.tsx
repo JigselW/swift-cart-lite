@@ -60,7 +60,7 @@ export const Confirmation = () => {
             </div>
             <div className="text-right">
               <h3 className="font-semibold">Total Amount</h3>
-              <p className="text-2xl font-bold text-primary">₹{orderData.total}</p>
+              <p className="text-2xl font-bold text-primary">Nu.{orderData.total}</p>
             </div>
           </div>
           
@@ -111,7 +111,7 @@ export const Confirmation = () => {
                   <p className="font-medium text-sm">{item.name}</p>
                   <p className="text-xs text-muted-foreground">Qty: {item.quantity}</p>
                 </div>
-                <p className="font-semibold">₹{item.price * item.quantity}</p>
+                <p className="font-semibold">Nu.{item.price * item.quantity}</p>
               </div>
             ))}
             
@@ -119,7 +119,7 @@ export const Confirmation = () => {
             
             <div className="flex justify-between items-center">
               <span className="font-semibold">Total</span>
-              <span className="font-bold text-lg">₹{orderData.total}</span>
+              <span className="font-bold text-lg">Nu.{orderData.total}</span>
             </div>
           </div>
         </Card>

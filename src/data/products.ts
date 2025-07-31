@@ -10,12 +10,12 @@ export interface Product {
 }
 
 export const products: Product[] = [
-  // Fruits
+  // Fruits (1-100) 
   {
     id: '1',
     name: 'Fresh Bananas',
-    price: 49,
-    originalPrice: 65,
+    price: 100,
+    originalPrice: 120,
     image: 'https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?w=400',
     category: 'fruits',
     unit: 'dozen',
@@ -50,9 +50,9 @@ export const products: Product[] = [
     weight: '500g'
   },
 
-  // Vegetables
+  // Vegetables (101-200)
   {
-    id: '5',
+    id: '101',
     name: 'Fresh Tomatoes',
     price: 35,
     originalPrice: 45,
@@ -62,7 +62,7 @@ export const products: Product[] = [
     weight: '1 kg'
   },
   {
-    id: '6',
+    id: '102',
     name: 'Onions',
     price: 25,
     image: 'https://images.unsplash.com/photo-1518977676601-b53f82aba655?w=400',
@@ -71,7 +71,7 @@ export const products: Product[] = [
     weight: '1 kg'
   },
   {
-    id: '7',
+    id: '103',
     name: 'Fresh Carrots',
     price: 45,
     image: 'https://images.unsplash.com/photo-1598170845058-32b9d6a5da37?w=400',
@@ -80,7 +80,7 @@ export const products: Product[] = [
     weight: '500g'
   },
   {
-    id: '8',
+    id: '104',
     name: 'Green Capsicum',
     price: 55,
     image: 'https://images.unsplash.com/photo-1563565375-f3c8de2dbaaa?w=400',
@@ -89,10 +89,10 @@ export const products: Product[] = [
     weight: '500g'
   },
 
-  // Snacks
+  // Snacks (201-300)
   {
-    id: '9',
-    name: 'Lays Classic Chips',
+    id: '201',
+    name: 'Lays',
     price: 20,
     image: 'https://images.unsplash.com/photo-1566478989037-eec170784d0b?w=400',
     category: 'snacks',
@@ -100,7 +100,7 @@ export const products: Product[] = [
     weight: '25g'
   },
   {
-    id: '10',
+    id: '202',
     name: 'Oreo Cookies',
     price: 35,
     image: 'https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=400',
@@ -109,7 +109,7 @@ export const products: Product[] = [
     weight: '150g'
   },
   {
-    id: '11',
+    id: '203',
     name: 'Mixed Nuts',
     price: 299,
     originalPrice: 350,
@@ -119,7 +119,7 @@ export const products: Product[] = [
     weight: '200g'
   },
   {
-    id: '12',
+    id: '204',
     name: 'Popcorn',
     price: 45,
     image: 'https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400',
@@ -128,9 +128,9 @@ export const products: Product[] = [
     weight: '100g'
   },
 
-  // Dairy
+  // Dairy (301-400)
   {
-    id: '13',
+    id: '301',
     name: 'Fresh Milk',
     price: 65,
     image: 'https://images.unsplash.com/photo-1563636619-e9143da7973b?w=400',
@@ -139,7 +139,7 @@ export const products: Product[] = [
     weight: '1 liter'
   },
   {
-    id: '14',
+    id: '302',
     name: 'Greek Yogurt',
     price: 85,
     originalPrice: 95,
@@ -149,7 +149,7 @@ export const products: Product[] = [
     weight: '400g'
   },
   {
-    id: '15',
+    id: '303',
     name: 'Cheese Slice',
     price: 129,
     image: 'https://images.unsplash.com/photo-1552767059-ce182ead6c1b?w=400',
@@ -158,7 +158,7 @@ export const products: Product[] = [
     weight: '200g'
   },
   {
-    id: '16',
+    id: '304',
     name: 'Butter',
     price: 179,
     image: 'https://images.unsplash.com/photo-1589985270826-4b7bb135bc9d?w=400',
