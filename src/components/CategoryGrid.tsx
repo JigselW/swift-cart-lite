@@ -1,20 +1,17 @@
 import { Card } from '@/components/ui/card';
 import fruitsImage from '@/assets/fruits.jpg';
-import vegetablesImage from '@/assets/vegetables.jpg';
 import snacksImage from '@/assets/snacks.jpg';
 import dairyImage from '@/assets/dairy.jpg';
-
 const categories = [
   {
-    id: 'fruits',
-    name: 'Fruits',
+    id: 'fruits and vegetables',
+    name: 'Fruits and Vegetables',
     image: fruitsImage,
     color: 'from-red-400 to-pink-400',
   },
   {
-    id: 'vegetables',
-    name: 'Vegetables',
-    image: vegetablesImage,
+    id: 'beverages',
+    name: 'Beverages',
     color: 'from-green-400 to-emerald-400',
   },
   {
@@ -27,6 +24,16 @@ const categories = [
     id: 'dairy',
     name: 'Dairy',
     image: dairyImage,
+    color: 'from-blue-400 to-cyan-400',
+  },
+  {
+    id: 'personal care',
+    name: 'Personal Care',
+    color: 'from-blue-400 to-cyan-400',
+  },
+   {
+    id: 'baby care',
+    name: 'baby Care',
     color: 'from-blue-400 to-cyan-400',
   },
 ];

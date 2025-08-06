@@ -119,3 +119,13 @@ All colors MUST be HSL.
     @apply bg-background text-foreground;
   }
 }
+
+.text-center.py-8 {
+  background-image: url('/home/jigsel-wangchuk/github/swift-cart-lite/src/assets/logo.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 0;
+}
+

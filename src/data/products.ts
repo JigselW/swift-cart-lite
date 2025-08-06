@@ -17,7 +17,7 @@ export const products: Product[] = [
     price: 100,
     originalPrice: 120,
     image: 'https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?w=400',
-    category: 'fruits',
+    category: 'fruits and vegetables',
     unit: 'dozen',
     weight: '1 dozen (12 pieces)'
   },
@@ -27,7 +27,7 @@ export const products: Product[] = [
     price: 149,
     originalPrice: 180,
     image: 'https://images.unsplash.com/photo-1560806887-1e4cd0b6cbd6?w=400',
-    category: 'fruits',
+    category: 'fruits and vegetables',
     unit: 'kg',
     weight: '1 kg'
   },
@@ -36,7 +36,7 @@ export const products: Product[] = [
     name: 'Fresh Oranges',
     price: 79,
     image: 'https://images.unsplash.com/photo-1547036967-23d11aacaee0?w=400',
-    category: 'fruits',
+    category: 'fruits and vegetables',
     unit: 'kg',
     weight: '1 kg'
   },
@@ -45,49 +45,50 @@ export const products: Product[] = [
     name: 'Green Grapes',
     price: 89,
     image: 'https://images.unsplash.com/photo-1537640538966-79f369143f8f?w=400',
-    category: 'fruits',
+    category: 'fruits and vegetables',
     unit: 'kg',
     weight: '500g'
   },
-
-  // Vegetables (101-200)
   {
-    id: '101',
+    id: '5',
     name: 'Fresh Tomatoes',
     price: 35,
     originalPrice: 45,
     image: 'https://images.unsplash.com/photo-1592924357228-91a4daadcfea?w=400',
-    category: 'vegetables',
+    category: 'fruits and vegetables',
     unit: 'kg',
     weight: '1 kg'
   },
   {
-    id: '102',
+    id: '6',
     name: 'Onions',
     price: 25,
     image: 'https://images.unsplash.com/photo-1518977676601-b53f82aba655?w=400',
-    category: 'vegetables',
+    category: 'fruits and vegetables',
     unit: 'kg',
     weight: '1 kg'
   },
   {
-    id: '103',
+    id: '7',
     name: 'Fresh Carrots',
     price: 45,
     image: 'https://images.unsplash.com/photo-1598170845058-32b9d6a5da37?w=400',
-    category: 'vegetables',
+    category: 'fruits and vegetables',
     unit: 'kg',
     weight: '500g'
   },
   {
-    id: '104',
+    id: '8',
     name: 'Green Capsicum',
     price: 55,
     image: 'https://images.unsplash.com/photo-1563565375-f3c8de2dbaaa?w=400',
-    category: 'vegetables',
+    category: 'fruits and vegetables',
     unit: 'kg',
     weight: '500g'
   },
+
+  // Beverages (101-200)
+  
 
   // Snacks (201-300)
   {
